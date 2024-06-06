@@ -11,7 +11,7 @@ var obstaclesGroup, obstacle1, obstacle2, obstacle3, obstacle4, obstacle5, obsta
 var score;
 
 var gameOverImg,restartImg
-var jumpSound , checkPointSound, dieSound
+
 
 
 function preload(){
@@ -32,9 +32,7 @@ function preload(){
    restartImg = loadImage("restart.png")
   gameOverImg = loadImage("gameOver.png")
   
-  jumpSound = loadSound("jump.mp3")
-  dieSound = loadSound("die.mp3")
-  checkPointSound = loadSound("checkPoint.mp3")
+
 }
 
 function setup() {
